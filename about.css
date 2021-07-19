@@ -1,0 +1,215 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* nav */
+
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: #35424A;
+            padding: 12px;
+            border-bottom: 3px solid #a24f88;
+            flex-direction: row;
+            text-align: center;
+          }
+          .left{
+              color: #ffff
+        
+          }
+          .clarusway{
+              color: #a24f88;
+          }
+          .right{
+            list-style-type: none;
+        
+          }
+        
+          .ul{
+              list-style-type: none;
+              display: flex;
+              flex-direction: row;
+          }
+          .li{
+              margin-left: 4rem;
+              margin: 0.5rem;
+        
+          }
+          .li-link{
+            color: #ffff;
+            font-weight: 600;
+            transition: all 0.5s;    
+            
+          }
+          .home{
+              color: #a24f88;
+          }
+          .home:hover{
+              color: #ffff;
+          }
+          .about:hover{
+              color: #a24f88;
+          }
+          .services:hover{
+              color: #a24f88;
+          }
+        
+
+        /* subscribe */
+
+        #subscribe {
+            display: flex;
+            justify-content: space-between;
+            background-color: #35424A;
+            padding: 1rem;
+            color: #ffff;
+        }
+
+        .subscribe-heading {
+            align-self: center;
+        }
+
+        .input {
+            align-self: center;
+        }
+
+        #input-box {
+            outline: none;
+            padding: 5px;
+        }
+
+        .btn {
+            background-color: orangered;
+            color: #ffff;
+            padding: 7px 10px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+
+        .btn:hover {
+            background-color: green;
+        }
+
+        /* about */
+        #about {
+            padding: 1rem;
+        }
+
+        .about-us {
+            float: left;
+            width: 60%;
+        }
+
+        .whatwedo {
+            float: right;
+            width: 35%;
+            background-color: #35424A;
+            color: #ffff;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 55px;
+        }
+
+        .clearfix {
+            display: table;
+            content: "";
+            clear: both;
+        }
+
+        h5 {
+            margin-bottom: 1rem;
+        }
+
+        .first-par {
+            margin-bottom: 1rem;
+        }
+
+        .second-par {
+            background-color: #35424A;
+            color: #ffff;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #35424A;
+            color: #ffff;
+            text-align: center;
+            padding: 9px;
+            font-size: .8rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .clarusway-logo {
+            max-width: 200px;
+            margin-top: 5px;
+        }
+
+        @media (max-width:700px) {
+            html {
+                font-size: 15px;
+            }
+
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav-links-container {
+                flex-direction: column;
+            }
+
+            .nav-links-item {
+                margin: 1rem;
+            }
+
+            .about-us {
+                width: 100%;
+            }
+
+            .whatwedo {
+                width: 100%;
+                margin-top: 25px;
+            }
+
+            footer {
+                position: relative;
+                bottom: 0;
+
+            }
+        }
+
+        @media (max-width:555px) {
+            html {
+                font-size: 14px;
+            }
+
+            #subscribe {
+                flex-direction: column;
+            }
+
+            .subscribe-heading {
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width:380px) {
+            html {
+                font-size: 13px;
+            }
+        } */
